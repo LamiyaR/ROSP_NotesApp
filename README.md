@@ -40,18 +40,18 @@ ROSPNotesApp/
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the repository
-\`\`\`bash
+
 git clone https://github.com/yLamiyaR/ROSP_NotesApp.git
 cd ROSPNotesApp
 \`\`\`
 
 ### 2️⃣ Install dependencies
-\`\`\`bash
+\`\`\`
 # Install backend dependencies
 npm install
 
 # Navigate to frontend (if separate) and install
-cd src
+
 npm install
 \`\`\`
 
@@ -64,23 +64,18 @@ PORT=5000
 \`\`\`
 
 ### 4️⃣ Run the development servers
-\`\`\`bash
+\`\`\`
 # Run backend
 npm start
 
 # Run frontend (in separate terminal, if needed)
-cd src
+
 npm start
 \`\`\`
 
 App should now be running at:  
 👉 Frontend: http://localhost:3000  
 👉 Backend: http://localhost:5000
-
----
-
-## 📸 Screenshots
-*(Add screenshots here if available)*
 
 ---
 
