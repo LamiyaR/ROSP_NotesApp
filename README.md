@@ -1,4 +1,5 @@
-# ROSP Notes App
+
+# 📒 ROSP Notes App
 
 A full-stack notes management application built with **React**, **Node.js**, **Express**, and **MongoDB**.  
 It provides a clean interface to create, edit, delete, and organize notes with user authentication and dark mode support.
@@ -16,15 +17,16 @@ It provides a clean interface to create, edit, delete, and organize notes with u
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend**: React, CSS
-- **Backend**: Node.js, Express
-- **Database**: MongoDB
-- **Authentication**: JWT & Middleware validation
+- **Frontend**: React, CSS  
+- **Backend**: Node.js, Express  
+- **Database**: MongoDB  
+- **Authentication**: JWT & Middleware validation  
 
 ---
-
 ## 📂 Project Structure
-\`\`\`
+
+```bash
+
 ROSPNotesApp/
 ├── controllers/      # Business logic for Auth, Notes, Home
 ├── routes/           # Express routers for API endpoints
@@ -33,56 +35,69 @@ ROSPNotesApp/
 ├── public/           # Static assets
 ├── src/              # React frontend (components, pages, utils)
 └── ...
-\`\`\`
 
----
+```
 
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the repository
 
-git clone https://github.com/yLamiyaR/ROSP_NotesApp.git
+```bash
+git clone https://github.com/yourusername/ROSPNotesApp.git
 cd ROSPNotesApp
-\`\`\`
+```
 
 ### 2️⃣ Install dependencies
-\`\`\`
+
+```bash
 # Install backend dependencies
 npm install
 
 # Navigate to frontend (if separate) and install
-
+cd src
 npm install
-\`\`\`
+```
 
 ### 3️⃣ Configure environment variables
+
 Create a `.env` file in the root with:
-\`\`\`
+
+```env
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 PORT=5000
-\`\`\`
+```
 
 ### 4️⃣ Run the development servers
-\`\`\`
+
+```bash
 # Run backend
 npm start
 
 # Run frontend (in separate terminal, if needed)
-
+cd src
 npm start
-\`\`\`
+```
 
-App should now be running at:  
-👉 Frontend: http://localhost:3000  
-👉 Backend: http://localhost:5000
+App should now be running at:
+👉 Frontend: [http://localhost:3000](http://localhost:3000)
+👉 Backend: [http://localhost:5000](http://localhost:5000)
 
 ---
 
 ## 🤝 Contributing
+
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ---
 
 ## 📜 License
+
 This project is licensed under the MIT License.
+
+```
+
+---
+
+Do you also want me to add some **badges** (Node.js, React, MongoDB, License, etc.) at the top for a more professional GitHub look?
+```
