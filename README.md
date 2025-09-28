@@ -75,7 +75,6 @@ PORT=5000
 npm start
 
 # Run frontend (in separate terminal, if needed)
-cd src
 npm start
 ```
 
@@ -95,9 +94,3 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 This project is licensed under the MIT License.
 
-```
-
----
-
-Do you also want me to add some **badges** (Node.js, React, MongoDB, License, etc.) at the top for a more professional GitHub look?
-```
